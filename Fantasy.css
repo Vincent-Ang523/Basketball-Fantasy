@@ -105,3 +105,9 @@ button{
     padding: 0px 0px;
     opacity: 1;
 }
+.hawksbox:hover .image{
+    opacity: 0.3;
+}
+.hawksbox:hover .btn{
+    opacity: 1;
+}

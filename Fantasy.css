@@ -1,0 +1,46 @@
+.court{
+   position: relative;
+   text-align: center;
+   vertical-align: bottom;
+   z-index: -1;
+   top:150px;
+}
+
+.left-teams{
+    width: 170px;
+    height: 600px;
+    border: 5px solid black;
+    margin: 20px auto;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    overflow: auto;
+    vertical-align: top;
+}
+.right-teams{
+    width: 170px;
+    height: 600px;
+    border: 5px solid black;
+    margin: 20px auto;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    overflow: auto;
+    vertical-align: top;
+}
+body{
+    background-color: #b45f06;
+}
+
+img{
+    width:150px;
+}
+img[src="Basketball Court.png"]{
+    width: 65%;
+}
+
+h3{
+    position: relative;
+    top: 20px;
+    
+}

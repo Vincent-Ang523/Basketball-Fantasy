@@ -77,9 +77,15 @@ position: absolute;
 }
 .btn2{
     position: absolute;
-      top: 150px;
+      top: 200px;
       left: 0px;
     }
+.btn3{
+    position: absolute;
+        top: 400px;
+        left: 0px;
+}
+
 .btn:hover{
     color:black;
     opacity: 1;
@@ -99,26 +105,26 @@ position: absolute;
 .btn:hover::before{
     height: 180%;
   }
-.hawkspic:hover{
+.pic:hover{
     opacity: 0.5;
     transition: 0.6s;
 }
 
-.hawksbox{
+.box{
     width: 150px;
-    height: 150px;
+    height: 200px;
     
     
 }
-.hawkspic{
+.pic{
     padding: 0px 0px;
     opacity: 1;
 }
-.hawksbox:hover .image{
+.box:hover .image{
     opacity: 0.3;
     transition: 0.6s;
 }
-.hawksbox:hover .btn{
+.box:hover .btn{
     opacity: 1;
 }
 

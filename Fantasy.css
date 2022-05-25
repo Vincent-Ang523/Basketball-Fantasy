@@ -54,6 +54,9 @@ button{
     
     
 }
+.image{
+    z-index: -1;
+}
 .btn{
     border: none;
   background: none;
@@ -69,6 +72,7 @@ button{
   color: black;
   font-weight: bold;
   opacity: 0;
+  z-index: 1;
   
 }
 .btn1{
@@ -251,11 +255,8 @@ position: absolute;
     
     
 }
-<<<<<<< HEAD
-=======
 
 
->>>>>>> fe904ef149253e25a8ee5fa5641981d9b6265a06
 .pic{
     padding: 0px 0px;
     opacity: 1;

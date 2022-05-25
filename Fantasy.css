@@ -269,4 +269,20 @@ position: absolute;
     opacity: 1;
 }
 
+.Away{
+    background-color: none;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    left: 245px;
+}
+.Home{
+    background-color: none;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    left: 960px;
+}
 

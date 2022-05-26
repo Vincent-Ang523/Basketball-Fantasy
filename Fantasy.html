@@ -189,8 +189,16 @@
                         </h3>
                     </div>
                 <div class="Away" id="leftTeams"><img id="awayTeams" src="" width="150"></div>
+                <div class="AwayTeamText">
+                    <p id="awayTeamNames"></p>
+                    <p id="awayTeamStats"></p>
+                </div>
                 <div class="court"><img src="Basketball Court.png" width="80%"></div>
                 <div class="Home" id="rightTeams"><img id="homeTeams" src="" width="150"></div>
+                <div class="HomeTeamText">
+                    <p id="homeTeamNames"></p>
+                    <p id="homeTeamStats"></p>
+                </div>
                 <div class="right-teams">
                             <div class="box">    
                                 <button class="btn btn1" onclick="Hawks1()">ATT: 83 DEF: 81</button>
@@ -382,122 +390,182 @@
     function Hawks(){
         document.getElementById("awayTeams").src="Atlanta Hawks.png";
         document.getElementById("leftTeams").style.top="335px";
+        document.getElementById("awayTeamNames").innerHTML="Atlanta Hawks";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 83"+"<br>"+"Defense: 81";
     }
     function Celtics(){
         document.getElementById("awayTeams").src="Boston Celtics.png";
         document.getElementById("leftTeams").style.top="330px";
+        document.getElementById("awayTeamNames").innerHTML="Boston Celtics";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 90"+"<br>"+"Defense: 90";
     }
     function Nets(){
         document.getElementById("awayTeams").src="Brooklyn Nets.png";
         document.getElementById("leftTeams").style.top="335px";
+        document.getElementById("awayTeamNames").innerHTML="Brooklyn Nets";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 90"+"<br>"+"Defense: 87";
     }
     function Hornets(){
         document.getElementById("awayTeams").src="Charlotte Hornets.png";
         document.getElementById("leftTeams").style.top="335px";
+        document.getElementById("awayTeamNames").innerHTML="Charlotte Hornets";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 83"+"<br>"+"Defense: 79";
     }
     function Bulls(){
         document.getElementById("awayTeams").src="Chicago Bulls.png";
         document.getElementById("leftTeams").style.top="335px";
+        document.getElementById("awayTeamNames").innerHTML="Chicago Bulls";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 87"+"<br>"+"Defense: 83";
     }
     function Cavaliers(){
         document.getElementById("awayTeams").src="Cleveland Cavaliers.png";
         document.getElementById("leftTeams").style.top="320px";
+        document.getElementById("awayTeamNames").innerHTML="Cleveland Cavaliers";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 84"+"<br>"+"Defense: 79";
     }
     function Mavericks(){
         document.getElementById("awayTeams").src="Dallas Mavericks.png";
         document.getElementById("leftTeams").style.top="335px";
+        document.getElementById("awayTeamNames").innerHTML="Dallas Mavericks";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 89"+"<br>"+"Defense: 79";
     }
     function Nuggets(){
         document.getElementById("awayTeams").src="Denver Nuggets.png";
         document.getElementById("leftTeams").style.top="335px";
+        document.getElementById("awayTeamNames").innerHTML="Denver Nuggets";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 88"+"<br>"+"Defense: 77";
     }
     function Pistons(){
         document.getElementById("awayTeams").src="Detroit Pistons.png";
         document.getElementById("leftTeams").style.top="335px";
+        document.getElementById("awayTeamNames").innerHTML="Detroit Pistons";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 80"+"<br>"+"Defense: 79";
     }
     function GSW(){
         document.getElementById("awayTeams").src="Golden State Warriors.png";
         document.getElementById("leftTeams").style.top="320px";
+        document.getElementById("awayTeamNames").innerHTML="Golden State Warriors";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 93"+"<br>"+"Defense: 90";
     }
     function Rockets(){
         document.getElementById("awayTeams").src="Houston Rocket.png";
         document.getElementById("leftTeams").style.top="320px";
+        document.getElementById("awayTeamNames").innerHTML="Houston Rockets";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 78"+"<br>"+"Defense: 81";
     }
     function Pacers(){
         document.getElementById("awayTeams").src="Indiana Pacers.png";
         document.getElementById("leftTeams").style.top="335px";
+        document.getElementById("awayTeamNames").innerHTML="Indiana Pacers";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 80"+"<br>"+"Defense: 82";
     }
     function Clippers(){
         document.getElementById("awayTeams").src="Los Angeles Clippers.png";
         document.getElementById("leftTeams").style.top="335px";
+        document.getElementById("awayTeamNames").innerHTML="Los Angeles Clippers";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 83"+"<br>"+"Defense: 83";
     }
     function Lakers(){
         document.getElementById("awayTeams").src="Los Angeles Lakers.png";
         document.getElementById("leftTeams").style.top="355px";
+        document.getElementById("awayTeamNames").innerHTML="Los Angeles Lakers";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 86"+"<br>"+"Defense: 83";
     }
     function Grizzlies(){
         document.getElementById("awayTeams").src="Memphis Grizzlies.png";
         document.getElementById("leftTeams").style.top="330px";
+        document.getElementById("awayTeamNames").innerHTML="Memphis Grizzlies";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 91"+"<br>"+"Defense: 90";
     }
     function Heat(){
         document.getElementById("awayTeams").src="Miami Heat.png";
         document.getElementById("leftTeams").style.top="300px";
+        document.getElementById("awayTeamNames").innerHTML="Miami Heat";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 89"+"<br>"+"Defense: 91";
     }
     function Bucks(){
         document.getElementById("awayTeams").src="Milwaukee Bucks.png";
         document.getElementById("leftTeams").style.top="300px";
+        document.getElementById("awayTeamNames").innerHTML="Milwaukee Bucks";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 91"+"<br>"+"Defense: 88";
     }
     function Timberwolves(){
         document.getElementById("awayTeams").src="Minnesota Timberwolves.png";
         document.getElementById("leftTeams").style.top="335px";
+        document.getElementById("awayTeamNames").innerHTML="Minnesota Timberwolves";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 84"+"<br>"+"Defense: 86";
     }
     function Pelicans(){
         document.getElementById("awayTeams").src="New Orleans Pelicans.png";
         document.getElementById("leftTeams").style.top="350px";
+        document.getElementById("awayTeamNames").innerHTML="New Orleans Pelicans";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 85"+"<br>"+"Defense: 82";
     }
     function Knicks(){
         document.getElementById("awayTeams").src="New York Knicks.png";
         document.getElementById("leftTeams").style.top="350px";
+        document.getElementById("awayTeamNames").innerHTML="New York Knicks";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 82"+"<br>"+"Defense: 78";
     }
     function Thunder(){
         document.getElementById("awayTeams").src="Oklahoma City Thunder.png";
         document.getElementById("leftTeams").style.top="340px";
+        document.getElementById("awayTeamNames").innerHTML="Oklahoma City Thunder";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 81"+"<br>"+"Defense: 79";
     }
     function Magic(){
         document.getElementById("awayTeams").src="Orlando Magic.png";
         document.getElementById("leftTeams").style.top="360px";
+        document.getElementById("awayTeamNames").innerHTML="Orlando Magic";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 76"+"<br>"+"Defense: 85";
     }
     function Philly(){
         document.getElementById("awayTeams").src="Philadelphia 76ers.png";
         document.getElementById("leftTeams").style.top="335px";
+        document.getElementById("awayTeamNames").innerHTML="Philadelhpia 76ers";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 86"+"<br>"+"Defense: 87";
     }
     function Suns(){
         document.getElementById("awayTeams").src="Phoenix Suns.png";
         document.getElementById("leftTeams").style.top="335px";
+        document.getElementById("awayTeamNames").innerHTML="Phoenix Suns";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 93"+"<br>"+"Defense: 82";
     }
     function Blazers(){
         document.getElementById("awayTeams").src="Portland Trail Blazers.png";
         document.getElementById("leftTeams").style.top="350px";
+        document.getElementById("awayTeamNames").innerHTML="Portland Trail Blazers";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 82"+"<br>"+"Defense: 82";
     }
     function Kings(){
         document.getElementById("awayTeams").src="Sacramento Kings.png";
         document.getElementById("leftTeams").style.top="325px";
+        document.getElementById("awayTeamNames").innerHTML="Sacramento Kings";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 83"+"<br>"+"Defense: 81";
     }
     function Spurs(){
         document.getElementById("awayTeams").src="San Antonio Spurs.png";
         document.getElementById("leftTeams").style.top="345px";
+        document.getElementById("awayTeamNames").innerHTML="San Antonio Spurs";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 84"+"<br>"+"Defense: 83";
     }
     function Raptors(){
         document.getElementById("awayTeams").src="Toronto Raptors.png";
         document.getElementById("leftTeams").style.top="335px";
+        document.getElementById("awayTeamNames").innerHTML="Toronto Raptors";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 85"+"<br>"+"Defense: 87";
     }
     function Jazz(){
         document.getElementById("awayTeams").src="Utah Jazz.png";
-        document.getElementById("leftTeams").style.top="360px";
+        document.getElementById("leftTeams").style.top="340px";
+        document.getElementById("awayTeamNames").innerHTML="Utah Jazz";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 86"+"<br>"+"Defense: 82";
     }
     function Wizards(){
         document.getElementById("awayTeams").src="Washington Wizards.png";
         document.getElementById("leftTeams").style.top="335px";
+        document.getElementById("awayTeamNames").innerHTML="Washington Wizards";
+        document.getElementById("awayTeamStats").innerHTML="Attack: 82"+"<br>"+"Defense: 79";
     }
 
 
@@ -508,122 +576,182 @@
     function Hawks1(){
         document.getElementById("homeTeams").src="Atlanta Hawks.png";
         document.getElementById("rightTeams").style.top="335px";
+        document.getElementById("homeTeamNames").innerHTML="Atlanta Hawks";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 83"+"<br>"+"Defense: 81";
     }
     function Celtics1(){
         document.getElementById("homeTeams").src="Boston Celtics.png";
         document.getElementById("rightTeams").style.top="330px";
+        document.getElementById("homeTeamNames").innerHTML="Boston Celtics";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 90"+"<br>"+"Defense: 90";
     }
     function Nets1(){
         document.getElementById("homeTeams").src="Brooklyn Nets.png";
         document.getElementById("rightTeams").style.top="335px";
+        document.getElementById("homeTeamNames").innerHTML="Brooklyn Nets";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 90"+"<br>"+"Defense: 87";
     }
     function Hornets1(){
         document.getElementById("homeTeams").src="Charlotte Hornets.png";
         document.getElementById("rightTeams").style.top="335px";
+        document.getElementById("homeTeamNames").innerHTML="Charlotte Hornets";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 83"+"<br>"+"Defense: 79";
     }
     function Bulls1(){
         document.getElementById("homeTeams").src="Chicago Bulls.png";
         document.getElementById("rightTeams").style.top="335px";
+        document.getElementById("homeTeamNames").innerHTML="Chicago Bulls";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 87"+"<br>"+"Defense: 83";
     }
     function Cavaliers1(){
         document.getElementById("homeTeams").src="Cleveland Cavaliers.png";
         document.getElementById("rightTeams").style.top="320px";
+        document.getElementById("homeTeamNames").innerHTML="Cleveland Cavaliers";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 84"+"<br>"+"Defense: 79";
     }
     function Mavericks1(){
         document.getElementById("homeTeams").src="Dallas Mavericks.png";
         document.getElementById("rightTeams").style.top="335px";
+        document.getElementById("homeTeamNames").innerHTML="Dallas Mavericks";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 89"+"<br>"+"Defense: 79";
     }
     function Nuggets1(){
         document.getElementById("homeTeams").src="Denver Nuggets.png";
         document.getElementById("rightTeams").style.top="335px";
+        document.getElementById("homeTeamNames").innerHTML="Denver Nuggets";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 88"+"<br>"+"Defense: 77";
     }
     function Pistons1(){
         document.getElementById("homeTeams").src="Detroit Pistons.png";
         document.getElementById("rightTeams").style.top="335px";
+        document.getElementById("homeTeamNames").innerHTML="Detroit Pistons";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 80"+"<br>"+"Defense: 79";
     }
     function GSW1(){
         document.getElementById("homeTeams").src="Golden State Warriors.png";
         document.getElementById("rightTeams").style.top="320px";
+        document.getElementById("homeTeamNames").innerHTML="Golden State Warriors";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 93"+"<br>"+"Defense: 90";
     }
     function Rockets1(){
         document.getElementById("homeTeams").src="Houston Rocket.png";
         document.getElementById("rightTeams").style.top="320px";
+        document.getElementById("homeTeamNames").innerHTML="Houston rockets";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 78"+"<br>"+"Defense: 81";
     }
     function Pacers1(){
         document.getElementById("homeTeams").src="Indiana Pacers.png";
         document.getElementById("rightTeams").style.top="335px";
+        document.getElementById("homeTeamNames").innerHTML="Indiana Pacers";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 80"+"<br>"+"Defense: 82";
     }
     function Clippers1(){
         document.getElementById("homeTeams").src="Los Angeles Clippers.png";
         document.getElementById("rightTeams").style.top="335px";
+        document.getElementById("homeTeamNames").innerHTML="Los Angeles Clippers";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 83"+"<br>"+"Defense: 83";
     }
     function Lakers1(){
         document.getElementById("homeTeams").src="Los Angeles Lakers.png";
         document.getElementById("rightTeams").style.top="355px";
+        document.getElementById("homeTeamNames").innerHTML="Los Angeles Lakers";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 86"+"<br>"+"Defense: 83";
     }
     function Grizzlies1(){
         document.getElementById("homeTeams").src="Memphis Grizzlies.png";
         document.getElementById("rightTeams").style.top="330px";
+        document.getElementById("homeTeamNames").innerHTML="Memphis Grizzlies";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 91"+"<br>"+"Defense: 90";
     }
     function Heat1(){
         document.getElementById("homeTeams").src="Miami Heat.png";
         document.getElementById("rightTeams").style.top="300px";
+        document.getElementById("homeTeamNames").innerHTML="Miami Heat";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 89"+"<br>"+"Defense: 91";
     }
     function Bucks1(){
         document.getElementById("homeTeams").src="Milwaukee Bucks.png";
         document.getElementById("rightTeams").style.top="300px";
+        document.getElementById("homeTeamNames").innerHTML="Milwaukee Bucks";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 91"+"<br>"+"Defense: 88";
     }
     function Timberwolves1(){
         document.getElementById("homeTeams").src="Minnesota Timberwolves.png";
         document.getElementById("rightTeams").style.top="335px";
+        document.getElementById("homeTeamNames").innerHTML="Minnesota Timberwolves";
+        document.getElementById("homeTeamStats").innerHTML="Attack:84"+"<br>"+"Defense: 86";
     }
     function Pelicans1(){
         document.getElementById("homeTeams").src="New Orleans Pelicans.png";
         document.getElementById("rightTeams").style.top="350px";
+        document.getElementById("homeTeamNames").innerHTML="New Orleans Pelicans";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 85"+"<br>"+"Defense: 82";
     }
     function Knicks1(){
         document.getElementById("homeTeams").src="New York Knicks.png";
         document.getElementById("rightTeams").style.top="350px";
+        document.getElementById("homeTeamNames").innerHTML="New York Knicks";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 82"+"<br>"+"Defense: 78";
     }
     function Thunder1(){
         document.getElementById("homeTeams").src="Oklahoma City Thunder.png";
         document.getElementById("rightTeams").style.top="340px";
+        document.getElementById("homeTeamNames").innerHTML="Oklahoma City Thunder";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 81"+"<br>"+"Defense: 79";
     }
     function Magic1(){
         document.getElementById("homeTeams").src="Orlando Magic.png";
         document.getElementById("rightTeams").style.top="360px";
+        document.getElementById("homeTeamNames").innerHTML="Orlando Magic";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 76"+"<br>"+"Defense: 85";
     }
     function Philly1(){
         document.getElementById("homeTeams").src="Philadelphia 76ers.png";
         document.getElementById("rightTeams").style.top="335px";
+        document.getElementById("homeTeamNames").innerHTML="Philadelphia 76ers";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 86"+"<br>"+"Defense: 87";
     }
     function Suns1(){
         document.getElementById("homeTeams").src="Phoenix Suns.png";
         document.getElementById("rightTeams").style.top="335px";
+        document.getElementById("homeTeamNames").innerHTML="Phoenix Suns";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 93"+"<br>"+"Defense: 82";
     }
     function Blazers1(){
         document.getElementById("homeTeams").src="Portland Trail Blazers.png";
         document.getElementById("rightTeams").style.top="350px";
+        document.getElementById("homeTeamNames").innerHTML="Portland Trail Blazers";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 82"+"<br>"+"Defense: 82";
     }
     function Kings1(){
         document.getElementById("homeTeams").src="Sacramento Kings.png";
         document.getElementById("rightTeams").style.top="325px";
+        document.getElementById("homeTeamNames").innerHTML="Sacramento Kings";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 83"+"<br>"+"Defense: 81";
     }
     function Spurs1(){
         document.getElementById("homeTeams").src="San Antonio Spurs.png";
         document.getElementById("rightTeams").style.top="345px";
+        document.getElementById("homeTeamNames").innerHTML="San Antonio Spurs";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 84"+"<br>"+"Defense: 83";
     }
     function Raptors1(){
         document.getElementById("homeTeams").src="Toronto Raptors.png";
         document.getElementById("rightTeams").style.top="335px";
+        document.getElementById("homeTeamNames").innerHTML="Toronto Raptors";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 85"+"<br>"+"Defense: 87";
     }
     function Jazz1(){
         document.getElementById("homeTeams").src="Utah Jazz.png";
-        document.getElementById("rightTeams").style.top="360px";
+        document.getElementById("rightTeams").style.top="340px";
+        document.getElementById("homeTeamNames").innerHTML="Utah Jazz";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 86"+"<br>"+"Defense: 82";
     }
     function Wizards1(){
         document.getElementById("homeTeams").src="Washington Wizards.png";
         document.getElementById("rightTeams").style.top="335px";
+        document.getElementById("homeTeamNames").innerHTML="Washington Wizards";
+        document.getElementById("homeTeamStats").innerHTML="Attack: 82"+"<br>"+"Defense: 79";
     }
 </script>
 

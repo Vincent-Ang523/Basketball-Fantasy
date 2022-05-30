@@ -353,5 +353,20 @@ position: absolute;
     z-index: 10;
     display: none; 
 }
+.homeScore{
+    position: absolute;
+    left: 850px;
+    top: 10px;
+}
+.awayScore{
+    position: absolute;
+    left: 350px;
+    top: 10px;
+}
+p{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
 
+}
 

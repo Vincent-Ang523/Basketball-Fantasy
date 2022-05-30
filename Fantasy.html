@@ -837,7 +837,10 @@
             alert ("Please Select Two Different Teams");
         }
         else{
-            score();
+            var confirmation = confirm("Are you Sure about the your Selection?");
+            if (confirmation == true){
+                score();
+            }
         }
     }
     function score(){

@@ -355,12 +355,12 @@ position: absolute;
 }
 .homeScore{
     position: absolute;
-    left: 850px;
+    left:875px;
     top: 10px;
 }
 .awayScore{
     position: absolute;
-    left: 350px;
+    left: 380px;
     top: 10px;
 }
 p{

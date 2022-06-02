@@ -837,10 +837,7 @@
             alert ("Please Select Two Different Teams");
         }
         else{
-            var confirmation = confirm("Are you Sure about the your Selection?");
-            if (confirmation == true){
                 score();
-            }
         }
     }
     function score(){
@@ -854,7 +851,7 @@
     var pointsForAway = (awayAttack/homeDefense)*109;
     var mean = (pointsForHome+pointsForAway)/2;
     var p = 0;
-    var std = 11;
+    var std = 11; //11 is a random standard deviation to make the points more varied
     var pHome = Math.random();
     var pAway = Math.random(); 
   function inv(p, mean, std){
@@ -917,9 +914,27 @@ function erf(x) {
 }
   return -1.41421356237309505 * std * erfcinv(2 * p) + mean;
       }
-    document.getElementById('homeScore').innerHTML=Math.round(inv(pHome, pointsForHome, std)); 
-    document.getElementById('awayScore').innerHTML=Math.round(inv(pAway, pointsForAway, std));
+    var scores=[Math.round(inv(pHome, pointsForHome, std)), Math.round(inv(pAway, pointsForAway, std))];
+    var position=0;
+    var random=0;
+    var addedPoints=0; //if the points are a tie, add a random team's points with any random integer from 1 to 20
+    var newPoints=0;
+    function tieBreaker(){
+        if(homePoints==awayPoints){
+        position=Math.floor(Math.random() * scores.length);
+        random=scores[position];
+        addedPoints=Math.floor(Math.random()*19); //19 from the maximum points of 20 minus the minimum 1
+        newPoints=addedPoints+1;
+        scores=scores.splice(position, 1, newPoints);
     }
+    else{
+        scores=scores;
+    }
+    return scores;
+    }
+    document.getElementById("homeScore").innerHTML=scores[0];
+    document.getElementById("awayScore").innerHTML=scores[1];
+}
 </script>
 
 

@@ -919,22 +919,18 @@ function erf(x) {
     var random=0;
     var addedPoints=0; //if the points are a tie, add a random team's points with any random integer from 1 to 20
     var newPoints=0;
-    function tieBreaker(){
+    var homePoints=Number(scores[0]);
+    var awayPoints=Number(scores[1]);
         if(homePoints==awayPoints){
-        position=Math.floor(Math.random() * scores.length);
+        position=Number(Math.floor(Math.random() * scores.length));
         random=scores[position];
-        addedPoints=Math.floor(Math.random()*19); //19 from the maximum points of 20 minus the minimum 1
-        newPoints=addedPoints+1;
-        scores=scores.splice(position, 1, newPoints);
-    }
-    else{
-        scores=scores;
-    }
-    return scores;
+        addedPoints=Number(Math.floor(Math.random()*19)); //19 from the maximum points of 20 minus the minimum 1
+        newPoints=Number(addedPoints+1);
+        return scores.splice(position, 1, newPoints);
     }
     document.getElementById("homeScore").innerHTML=scores[0];
     document.getElementById("awayScore").innerHTML=scores[1];
-}
+    }
 </script>
 
 
